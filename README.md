@@ -48,7 +48,7 @@ sudo apt install ffmpeg
 npm install
 ```
 
-次を実行することで、espressサーバが立ち上がります。
+次を実行することで、expressサーバが立ち上がります。
 
 ```
 node server_google.js
