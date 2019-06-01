@@ -56,4 +56,4 @@ npm install
 node server_google.js
 ```
 
-`/webhook`のエンドポイントができるので、LINE developerページの設定の`Webhook URL`をサーバを実行しているドメインのwebhookエンドポイント(https://exmaple.com/webhook)に設定することで、LINE Botを運用することができます。その際、SSLが必須になっています。証明書の取得をしなくても、手元のPCのlocalhostにグローバルからアクセスできるようにするトンネリングツールも存在します(https://dashboard.ngrok.com/)。
+`/webhook`のエンドポイントができるので、LINE developerページの設定の`Webhook URL`をサーバを実行しているドメインのwebhookエンドポイント(https://exmaple.com/webhook) に設定することで、LINE Botを運用することができます。その際、SSLが必須になっています。証明書の取得をしなくても、手元のPCのlocalhostにグローバルからアクセスできるようにするトンネリングツールも存在します(https://dashboard.ngrok.com/)。
