@@ -1,5 +1,7 @@
 # Voice2TextBot
 
+<img src="https://raw.githubusercontent.com/tommy19970714/Voice2TextBot/master/docs/example.gif" width="320px">
+
 ## Overview
 
 基本的には、次の図のような構成になります。LINE Botを扱うAPIのことをLINE Messeging APIといい、サーバ上から呼び出します。サーバはnodejsで実装し、文字起こしには Google Cloud Speech APIを使用しました。しかし、Messeging APIから得られるのは、m4a形式のbufferで、Google Cloud Speech APIはm4a形式に対応していなかったので、サーバ上で変換を行ってから、APIに音声を投げています。
